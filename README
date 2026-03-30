@@ -1,0 +1,38 @@
+# Pruebas Automatizadas (Playwright)
+
+## Requisitos
+
+- Node.js 18+ (recomendado 20+)
+- pnpm (el proyecto usa `pnpm@10.33.0`)
+
+## Instalar dependencias
+
+```bash
+pnpm install
+```
+
+Si no tienes `pnpm`, puedes instalarlo con:
+
+```bash
+npm install -g pnpm
+```
+
+## Ejecutar la prueba automatizada
+
+Ejecutar toda la suite:
+
+```bash
+pnpm test
+```
+
+Ejecutar en modo headed (con navegador visible):
+
+```bash
+pnpm test:headed
+```
+
+Ver el reporte HTML tras la ejecución:
+
+```bash
+pnpm report
+```
